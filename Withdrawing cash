@@ -1,0 +1,16 @@
+PINCODE = 1234
+BALANCE = 3245
+input INSERT
+loop while INSERT<0
+    input  INSERT
+end loop
+input PIN
+loop while PIN != PINCODE
+    input PIN
+end loop
+input WITHDRAWAL
+loop while WITHDRAWAL > BALANCE
+    input WITHDRAWAL
+end loop
+output "here is your money"
+output WITHDRAWAL
